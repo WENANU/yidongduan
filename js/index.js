@@ -29,11 +29,11 @@ window.addEventListener('load', function () {
         conte.children[2].innerHTML = s;
     }
     var jiann = document.querySelector('.jiann');
-    var cjang = document.querySelector('.cjang');
+    var beoo = document.querySelector('.beoo');
     var tou = document.querySelector('.sousou');
     document.addEventListener('scroll', function () {
         tou.style.position = 'fixed';
-        if (window.pageYOffset > cjang.offsetTop) {
+        if (window.pageYOffset > beoo.offsetTop) {
             jiann.style.display = 'block';
         } else {
             jiann.style.display = 'none';
